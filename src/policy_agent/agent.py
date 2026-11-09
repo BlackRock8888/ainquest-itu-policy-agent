@@ -129,7 +129,7 @@ def answer(query: str, kb: KB, *, explicit_scope: dict | None = None,
 
 
 def _llm_rephrase(out: dict, model_spec: str) -> tuple[dict, dict]:
-    """model_spec like 'ollama:qwen2.5:14b'. Never called by tests."""
+    """model_spec like 'ollama:LOCAL_MODEL'. Never called by tests."""
     _, model = model_spec.split(":", 1)
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
     allowed = {c["card_id"] for c in out["citations"] + out["context_examples"]}

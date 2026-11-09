@@ -25,3 +25,6 @@ https://aiforgood.itu.int/event/ai-for-good-sandbox-hackathon-united-arab-emirat
 
 ## Attribution and rights
 `standards.py` contains a mapping derived from ITUAIReadiness commit 84010da9e9c443afcceeccb86d1700a662223395; its MIT notice is reproduced in THIRD_PARTY_NOTICES.md. Other original project code is published for inspection; no additional reuse license is granted yet. Original authors retain their rights.
+
+## Anonymous evaluation presentation
+Public results do not identify individual reviewing models or rank providers. Technical provider identifiers needed by optional adapters, search vocabulary, and legally required third-party attribution are retained; they are not endorsements. This repository is associated with its public GitHub owner and is not an anonymous account.

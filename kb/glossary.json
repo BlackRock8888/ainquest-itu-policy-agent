@@ -1,5 +1,5 @@
 {
-  "_note": "Deterministic query-expansion glossary RU/AR -> EN topic terms. Authored by Claude 2026-11-08. AR and RU entries are NOT reviewed by a native speaker (review=pending). Used only for query expansion; quotes are never machine-translated.",
+  "_note": "Deterministic query-expansion glossary RU/AR -> EN topic terms. Research glossary, 2026-11-08. AR and RU entries are NOT reviewed by a native speaker (review=pending). Used only for query expansion; quotes are never machine-translated.",
   "review": {
     "ru": "pending",
     "ar": "pending"

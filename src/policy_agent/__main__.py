@@ -1,6 +1,6 @@
 """CLI.
 
-  python -m policy_agent ask "question" [--log runs/decisions.jsonl] [--llm ollama:qwen2.5:14b]
+  python -m policy_agent ask "question" [--log runs/decisions.jsonl] [--llm ollama:LOCAL_MODEL]
   python -m policy_agent eval evals/dev.jsonl [--out runs/dev.json]
   python -m policy_agent replay evals/scenarios/uaeu_progressive_ar_ru.json [--out runs/replay.json]
   python -m policy_agent export-upstream OUT_DIR
