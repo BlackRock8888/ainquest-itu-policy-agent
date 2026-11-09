@@ -1,0 +1,479 @@
+{
+  "_note": "Deterministic query-expansion glossary RU/AR -> EN topic terms. Authored by Claude 2026-11-08. AR and RU entries are NOT reviewed by a native speaker (review=pending). Used only for query expansion; quotes are never machine-translated.",
+  "review": {
+    "ru": "pending",
+    "ar": "pending"
+  },
+  "terms": {
+    "ai": {
+      "en": [
+        "ai",
+        "artificial",
+        "intelligence",
+        "genai",
+        "generative",
+        "chatgpt",
+        "gai"
+      ],
+      "ru": [
+        "ии",
+        "ии-инструмент",
+        "нейросеть",
+        "нейросети",
+        "искусственный",
+        "интеллект",
+        "генеративный",
+        "chatgpt"
+      ],
+      "ar": [
+        "الذكاء",
+        "الاصطناعي",
+        "التوليدي",
+        "ذكاء",
+        "اصطناعي",
+        "chatgpt"
+      ]
+    },
+    "exam": {
+      "en": [
+        "exam",
+        "exams",
+        "examination",
+        "examinations",
+        "test",
+        "tests",
+        "quiz",
+        "quizzes"
+      ],
+      "ru": [
+        "экзамен",
+        "экзамене",
+        "экзамена",
+        "экзамены",
+        "экзаменах",
+        "тест",
+        "контрольная",
+        "контрольной",
+        "зачет",
+        "зачёт"
+      ],
+      "ar": [
+        "امتحان",
+        "الامتحان",
+        "امتحانات",
+        "الامتحانات",
+        "اختبار",
+        "الاختبار",
+        "اختبارات"
+      ]
+    },
+    "assignment": {
+      "en": [
+        "assignment",
+        "assignments",
+        "homework",
+        "essay",
+        "project",
+        "projects",
+        "coursework",
+        "report"
+      ],
+      "ru": [
+        "задание",
+        "задании",
+        "задания",
+        "домашнее",
+        "эссе",
+        "проект",
+        "курсовая",
+        "курсовой",
+        "реферат",
+        "отчет",
+        "отчёт"
+      ],
+      "ar": [
+        "واجب",
+        "الواجب",
+        "واجبات",
+        "مشروع",
+        "المشروع",
+        "مقال",
+        "تكليف",
+        "بحث"
+      ]
+    },
+    "permission": {
+      "en": [
+        "allowed",
+        "permitted",
+        "permit",
+        "permission",
+        "can",
+        "may",
+        "use"
+      ],
+      "ru": [
+        "можно",
+        "разрешено",
+        "разрешается",
+        "разрешение",
+        "использовать",
+        "пользоваться",
+        "допускается"
+      ],
+      "ar": [
+        "يجوز",
+        "مسموح",
+        "يسمح",
+        "استخدام",
+        "أستخدم",
+        "استعمال",
+        "يمكن",
+        "يمكنني"
+      ]
+    },
+    "disclosure": {
+      "en": [
+        "disclose",
+        "disclosure",
+        "declaration",
+        "acknowledge",
+        "acknowledgement",
+        "cite",
+        "declare"
+      ],
+      "ru": [
+        "указать",
+        "указывать",
+        "раскрыть",
+        "декларация",
+        "сослаться",
+        "упомянуть",
+        "признать"
+      ],
+      "ar": [
+        "الإفصاح",
+        "إفصاح",
+        "الإقرار",
+        "إقرار",
+        "الاستشهاد",
+        "أذكر",
+        "التصريح"
+      ]
+    },
+    "detector": {
+      "en": [
+        "detector",
+        "detection",
+        "turnitin",
+        "score",
+        "flagged",
+        "detected"
+      ],
+      "ru": [
+        "детектор",
+        "детектора",
+        "антиплагиат",
+        "turnitin",
+        "обнаружил",
+        "обнаружение",
+        "процент"
+      ],
+      "ar": [
+        "كاشف",
+        "الكشف",
+        "تيرنيتن",
+        "تورنيتين",
+        "turnitin",
+        "نسبة",
+        "رصد"
+      ]
+    },
+    "penalty": {
+      "en": [
+        "penalty",
+        "punish",
+        "punished",
+        "disciplinary",
+        "violation",
+        "zero",
+        "fail"
+      ],
+      "ru": [
+        "наказание",
+        "наказать",
+        "дисциплинарный",
+        "нарушение",
+        "ноль",
+        "отчисление"
+      ],
+      "ar": [
+        "عقوبة",
+        "تأديبي",
+        "مخالفة",
+        "صفر",
+        "معاقبة"
+      ]
+    },
+    "syllabus": {
+      "en": [
+        "syllabus",
+        "instructor",
+        "course",
+        "professor",
+        "teacher"
+      ],
+      "ru": [
+        "силлабус",
+        "преподаватель",
+        "преподавателя",
+        "курс",
+        "курса",
+        "учитель"
+      ],
+      "ar": [
+        "المنهج",
+        "مخطط",
+        "المدرس",
+        "الأستاذ",
+        "المقرر",
+        "مقرر"
+      ]
+    },
+    "age_limit": {
+      "en": [
+        "age",
+        "years",
+        "old",
+        "minimum",
+        "child",
+        "children",
+        "under"
+      ],
+      "ru": [
+        "возраст",
+        "лет",
+        "младше",
+        "ребенок",
+        "ребёнок",
+        "дети",
+        "детей"
+      ],
+      "ar": [
+        "عمر",
+        "سن",
+        "سنة",
+        "أطفال",
+        "طفل",
+        "أقل"
+      ]
+    },
+    "emotion_recognition": {
+      "en": [
+        "emotion",
+        "emotions",
+        "attention",
+        "facial",
+        "eye",
+        "tracking",
+        "proctoring"
+      ],
+      "ru": [
+        "эмоции",
+        "эмоций",
+        "внимание",
+        "лицо",
+        "прокторинг",
+        "отслеживание"
+      ],
+      "ar": [
+        "المشاعر",
+        "العواطف",
+        "الانتباه",
+        "تتبع",
+        "المراقبة"
+      ]
+    },
+    "data_protection": {
+      "en": [
+        "data",
+        "privacy",
+        "personal",
+        "protection",
+        "cybersecurity"
+      ],
+      "ru": [
+        "данные",
+        "персональные",
+        "конфиденциальность",
+        "защита"
+      ],
+      "ar": [
+        "البيانات",
+        "الخصوصية",
+        "الشخصية",
+        "حماية"
+      ]
+    },
+    "curriculum": {
+      "en": [
+        "curriculum",
+        "subject",
+        "literacy",
+        "teach",
+        "taught",
+        "lessons"
+      ],
+      "ru": [
+        "программа",
+        "предмет",
+        "грамотность",
+        "уроки",
+        "обучение"
+      ],
+      "ar": [
+        "منهج",
+        "المناهج",
+        "مادة",
+        "تعليم",
+        "دروس"
+      ]
+    },
+    "school": {
+      "en": [
+        "school",
+        "schools",
+        "grade",
+        "kindergarten",
+        "pupil",
+        "k-12"
+      ],
+      "ru": [
+        "школа",
+        "школе",
+        "школы",
+        "класс",
+        "классе",
+        "школьник"
+      ],
+      "ar": [
+        "مدرسة",
+        "المدرسة",
+        "المدارس",
+        "الصف",
+        "تلميذ"
+      ]
+    },
+    "university": {
+      "en": [
+        "university",
+        "college",
+        "undergraduate",
+        "bachelor"
+      ],
+      "ru": [
+        "университет",
+        "университете",
+        "вуз",
+        "вузе",
+        "студент",
+        "студентка",
+        "бакалавр"
+      ],
+      "ar": [
+        "جامعة",
+        "الجامعة",
+        "كلية",
+        "جامعي"
+      ]
+    },
+    "graduate": {
+      "en": [
+        "thesis",
+        "master",
+        "masters",
+        "doctoral",
+        "phd",
+        "dissertation",
+        "graduate"
+      ],
+      "ru": [
+        "магистр",
+        "магистратура",
+        "магистерская",
+        "диссертация",
+        "аспирант",
+        "аспирантура"
+      ],
+      "ar": [
+        "أطروحة",
+        "رسالة",
+        "ماجستير",
+        "دكتوراه",
+        "الدراسات",
+        "العليا"
+      ]
+    },
+    "price": {
+      "en": [
+        "price",
+        "cost",
+        "fee",
+        "subscription"
+      ],
+      "ru": [
+        "цена",
+        "стоимость",
+        "сколько",
+        "стоит",
+        "подписка"
+      ],
+      "ar": [
+        "سعر",
+        "تكلفة",
+        "اشتراك",
+        "رسوم"
+      ]
+    }
+  },
+  "institution_aliases": {
+    "Demo University": [
+      "demo university"
+    ]
+  },
+  "unknown_institution_markers": [
+    "zayed university",
+    "khalifa university",
+    "nyu abu dhabi",
+    "heriot-watt",
+    "университет зайда",
+    "جامعة زايد",
+    "university of dubai",
+    "american university in dubai",
+    "american university of dubai"
+  ],
+  "emirate_aliases": {
+    "Abu Dhabi": [
+      "abu dhabi",
+      "абу-даби",
+      "абу даби",
+      "أبوظبي",
+      "أبو ظبي",
+      "adek"
+    ],
+    "Dubai": [
+      "dubai",
+      "дубай",
+      "дубае",
+      "دبي",
+      "khda"
+    ],
+    "Sharjah": [
+      "sharjah school",
+      "sharjah private school",
+      "spea",
+      "школа в шардже",
+      "مدارس الشارقة"
+    ]
+  }
+}
