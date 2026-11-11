@@ -1,0 +1,6 @@
+{"id":"SYN-EN","group":"synthetic-disclosure","lang":"en","query":"What disclosure is required at Demo University for an assignment?","expect":{"decision":"answer","must_cite_sources":["DEMO_AI_POLICY"]}}
+{"id":"SYN-RU","group":"synthetic-disclosure","lang":"ru","query":"Как указать использование ИИ в задании в Demo University?","expect":{"decision":"answer","must_cite_sources":["DEMO_AI_POLICY"]}}
+{"id":"SYN-AR","group":"synthetic-disclosure","lang":"ar","query":"كيف أذكر استخدام الذكاء الاصطناعي في الواجب في Demo University؟","expect":{"decision":"answer","must_cite_sources":["DEMO_AI_POLICY"]}}
+{"id":"SYN-MISSING","group":"missing-policy","lang":"en","query":"Can I use AI for my thesis at Zayed University?","expect":{"decision":"refuse","must_not_cite_sources":["DEMO_AI_POLICY"]}}
+{"id":"SYN-PRICE","group":"outside-kb","lang":"en","query":"What is the subscription price for Demo University?","expect":{"decision":"refuse","must_not_cite_sources":["DEMO_AI_POLICY"]}}
+{"id":"SYN-CONFLICT","group":"scope-conflict","lang":"en","query":"What disclosure is required at Demo University for a school assignment?","expect":{"decision":"clarify","must_not_cite_sources":["DEMO_AI_POLICY"],"human_review_required":true}}

@@ -1,0 +1,123 @@
+{
+  "id": "synthetic-progressive-v1",
+  "description": "Author-defined synthetic smoke replay only. No real university policy, external evaluation or legal authority. Receipt of a synthetic syllabus records context, not interpretation of its content.",
+  "events": [
+    {
+      "id": "P1",
+      "type": "user_message",
+      "partial": true,
+      "payload": {},
+      "expect": {
+        "terminal": "partial",
+        "decision": null
+      }
+    },
+    {
+      "id": "P2",
+      "type": "user_message",
+      "payload": {
+        "text": "What disclosure is required at Demo University for an assignment?"
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "answer",
+        "lang": "en",
+        "must_cite_sources": [
+          "DEMO_AI_POLICY"
+        ]
+      }
+    },
+    {
+      "id": "P3",
+      "type": "document",
+      "payload": {
+        "doc_type": "syllabus",
+        "content": "SYNTHETIC CONTEXT ONLY: classroom example, no real course or authority.",
+        "synthetic": true,
+        "source_note": "Author-created fixture for state-handling demonstration."
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "state_updated"
+      }
+    },
+    {
+      "id": "P4",
+      "type": "user_message",
+      "payload": {
+        "text": "Как указать использование ИИ в этом задании?"
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "answer",
+        "lang": "ru",
+        "must_cite_sources": [
+          "DEMO_AI_POLICY"
+        ]
+      }
+    },
+    {
+      "id": "P5",
+      "type": "user_message",
+      "payload": {
+        "text": "كيف أذكر استخدام الذكاء الاصطناعي في هذا الواجب؟"
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "answer",
+        "lang": "ar",
+        "must_cite_sources": [
+          "DEMO_AI_POLICY"
+        ]
+      }
+    },
+    {
+      "id": "P6",
+      "type": "signal",
+      "payload": {
+        "signal_type": "synthetic-detector",
+        "text": "A detector score was flagged; can this prove misconduct?"
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "refuse",
+        "human_review_required": true,
+        "must_not_cite_cards": [
+          "DEMO_AI_POLICY#1"
+        ]
+      }
+    },
+    {
+      "id": "P7",
+      "type": "supersede",
+      "payload": {
+        "card_ids": [
+          "DEMO_AI_POLICY#1"
+        ],
+        "note": "Synthetic withdrawal event; no replacement evidence supplied."
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "state_updated"
+      }
+    },
+    {
+      "id": "P8",
+      "type": "user_message",
+      "payload": {
+        "text": "What disclosure is required at Demo University for an assignment?"
+      },
+      "expect": {
+        "terminal": "complete",
+        "decision": "refuse",
+        "must_not_cite_cards": [
+          "DEMO_AI_POLICY#1"
+        ],
+        "must_have_unknowns": [
+          "requested_document_unavailable:DEMO_AI_POLICY"
+        ],
+        "version_change_reported": true
+      }
+    }
+  ]
+}

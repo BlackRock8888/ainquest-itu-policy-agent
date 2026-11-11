@@ -31,7 +31,7 @@ def export(kb: KB, out_dir: Path) -> dict:
         name = f"{prefix}{sid}.txt"
         lines = [f"Title: {s['title']}", f"Publisher: {s['publisher']}", f"URL: {s['url']}",
                  f"Jurisdiction: {s['jurisdiction']}", f"Institution: {s.get('institution') or '-'}",
-                 f"Level: {s['level']}", f"Binding status: {s['binding_status']} ({s['binding_evidence']})",
+                 f"Level: {s['level']}", f"Binding status: {s['binding_status']} ({s.get('binding_evidence') or 'not supplied; no authority inferred'})",
                  f"Publication date: {s.get('publication_date') or 'not printed'}",
                  f"Fetched (UTC): {s['fetched_at_utc']}", f"Caveats: {s.get('caveats') or '-'}",
                  f"Licence note: {s.get('license_note')}", "", "Verbatim excerpts:"]

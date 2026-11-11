@@ -1,0 +1,203 @@
+{
+  "run_utc": "2026-11-09T19:25:19+00:00",
+  "corpus_sha256": "522884b96240e02d3a062ab631c73be845d0bf0bbe1fe61aa6765f920d598105",
+  "card_count": 3,
+  "source_count": 1,
+  "kind": "candidate-specific deterministic checks, not independent held-out or UAE coverage validation",
+  "network_calls_allowed": false,
+  "llm_used": false,
+  "pass": 22,
+  "total": 22,
+  "checks": [
+    {
+      "name": "exactly_three_cards_and_one_source",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all_cards_global_nonbinding",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "corpus_hash_matches_manifest",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "age_13_quote_keeps_independent_conversation_context",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "source_attribution_license_and_pages_present",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no_model_attribution_in_candidate_kb",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "independent_en",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "independent_ru",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "independent_ar",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "uae_legal_age",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "institution_age",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "blanket_permission",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "no_evidence_in_scope"
+      }
+    },
+    {
+      "name": "missing_khda",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "requested_document_unavailable:KHDA_AI_POLICY"
+      }
+    },
+    {
+      "name": "missing_moe",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "requested_document_unavailable:MOE_CLASSROOM_GENAI_GUIDE"
+      }
+    },
+    {
+      "name": "missing_university_exam",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "no_evidence_in_scope"
+      }
+    },
+    {
+      "name": "unsupported_penalty",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "no_evidence_in_scope"
+      }
+    },
+    {
+      "name": "unsupported_price",
+      "pass": true,
+      "details": {
+        "expected": "refuse",
+        "actual": "refuse",
+        "reason": "topic_outside_kb:price"
+      }
+    },
+    {
+      "name": "injection_binding",
+      "pass": true,
+      "details": {
+        "expected": "context_only",
+        "actual": "context_only",
+        "reason": "only_nonbinding_or_foreign_context"
+      }
+    },
+    {
+      "name": "no_fallback_when_source_hidden",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "superseded_card_not_reused",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no_fallback_when_all_cards_superseded",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "original_baseline_and_public_copy_byte_identical",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "quote_verification": {
+    "source_pdf_sha256": "75ed12d4c0a67f4398ec20cfe92755180c14f12360a13c93d7f2809b000dfa71",
+    "checks": [
+      {
+        "card_id": "UNESCO_GENAI_GUIDANCE_2023#1",
+        "printed_page": 21,
+        "pdf_page": 24,
+        "quote_exact_after_whitespace_normalization": true
+      },
+      {
+        "card_id": "UNESCO_GENAI_GUIDANCE_2023#2",
+        "printed_page": 21,
+        "pdf_page": 24,
+        "quote_exact_after_whitespace_normalization": true
+      },
+      {
+        "card_id": "UNESCO_GENAI_GUIDANCE_2023#3",
+        "printed_page": 23,
+        "pdf_page": 26,
+        "quote_exact_after_whitespace_normalization": true
+      }
+    ]
+  },
+  "original_project_regression": "26 passed, 1 skipped; separate original corpus, not candidate performance",
+  "limitations": [
+    "candidate-authored tests, not independent held-out",
+    "not a comprehensive UAE KB",
+    "RU/AR lack native-speaker review",
+    "no legal certification",
+    "not submitted or published",
+    "original baseline and public repository files byte-identical"
+  ]
+}

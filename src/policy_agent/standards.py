@@ -20,8 +20,8 @@ NODE_TO_DIMENSIONS = {
 }
 
 COMPONENTS = [
-    {"node": "SRC", "component": "Official UAE federal/emirate/institution documents + global examples (kb/raw/*.jsonl: URL, publisher, fetch time, sha256)",
-     "status": "research checkout only; excluded from synthetic public export"},
+    {"node": "SRC", "component": "Default synthetic kb/; separate opt-in UNESCO guidance subset in kb_candidates/unesco/; research-source index is metadata only",
+     "status": "one default synthetic card; three separately licensed global_nonbinding guidance cards; remaining research corpus withheld"},
     {"node": "C", "component": "scripts/build_kb.py (collector: verbatim quotes + snapshot verification)", "status": "research checkout only; excluded from synthetic public export"},
     {"node": "PP", "component": "Card annotation (scope, level, authority tier, topics), glossary-based EN/RU/AR query expansion, normalisation (src/policy_agent/text.py, scope.py)",
      "status": "implemented; RU/AR glossary not native-reviewed"},
@@ -44,12 +44,12 @@ DIMENSIONS = {1: "Data/Model Marketplace", 2: "Generated Content Marketplace", 3
 
 # Our own primary claims (subset), with the artefact that evidences each.
 DIMENSION_CLAIMS = {
-    4: "UAE-specific (federal / Abu Dhabi / Dubai / Sharjah / institution) scope on every card",
+    4: "Scope fields (jurisdiction / institution / level) on every card; UAE-specific scope applies to the withheld research corpus; default KB is synthetic and the separate UNESCO subset is global_nonbinding",
     6: "Answers in the user's language (EN/RU/AR) with original-language quotes",
-    7: "Cards from UAE AI Strategy 2031 and UAE AI Charter linked to education rules",
+    7: "Withheld research corpus only: cards from UAE AI Strategy 2031 and UAE AI Charter linked to education rules; not present in the public KB",
     9: "Human-review flag; detector score never treated as proof",
-    10: "Policy gap findings (docs/standards-mapping.md#gaps) and scope-conflict flags; substantive policy contradictions require review",
-    11: "Arabic and Russian access to English-only policy text; age-limit guidance surfaced as context",
+    10: "Scope-conflict flags; policy gap candidates and public/research boundaries are documented in docs/standards-mapping.md#gaps; substantive policy contradictions require review",
+    11: "EN/RU/AR query expansion and templates; default synthetic demo plus opt-in UNESCO guidance subset; three context-only examples passed, native language review remains pending",
 }
 
 

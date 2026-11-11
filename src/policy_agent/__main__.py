@@ -1,8 +1,8 @@
 """CLI.
 
   python -m policy_agent ask "question" [--log runs/decisions.jsonl] [--llm ollama:LOCAL_MODEL]
-  python -m policy_agent eval evals/dev.jsonl [--out runs/dev.json]
-  python -m policy_agent replay evals/scenarios/uaeu_progressive_ar_ru.json [--out runs/replay.json]
+  python -m policy_agent eval evals/synthetic-smoke.jsonl [--out runs/synthetic-smoke.json]
+  python -m policy_agent replay evals/scenarios/synthetic-progressive.json [--out runs/replay.json]
   python -m policy_agent export-upstream OUT_DIR
   python -m policy_agent standards
 """

@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+# Additional separately licensed dataset
+
+The MIT notice above applies to the attributed ITUAIReadiness reference material; it does not relicense every file in this repository. The recovered UNESCO excerpts and associated annotations in `kb_candidates/unesco/` are supplied under CC BY-SA 3.0 IGO with separate attribution, change notices and required disclaimers. See [the complete UNESCO notices](kb_candidates/unesco/THIRD_PARTY_NOTICES.md) and [integration notes](kb_candidates/unesco/INTEGRATION.md). Preserve those notices with redistributed excerpts and derived output. The dataset license does not grant rights to unrelated project code.
