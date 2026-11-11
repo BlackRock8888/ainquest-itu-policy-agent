@@ -1,0 +1,298 @@
+{
+ "run_utc": "2026-11-11T23:45:28+00:00",
+ "scenario": "evals/scenarios/synthetic-progressive.json",
+ "corpus_sha256": "3e8ae880d5e79285be5890c0fc3e15e94e7cb70f2d92196eee27606994e63081",
+ "checks": [
+  {
+   "event_id": "P1",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P2",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P3",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P4",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P5",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P6",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P7",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "event_id": "P8",
+   "pass": true,
+   "fails": []
+  }
+ ],
+ "results": [
+  {
+   "event_id": "P1",
+   "terminal": "partial",
+   "decision": null,
+   "reason": "incomplete_event:user_message:['text']"
+  },
+  {
+   "run_id": "run-20261111T234528Z-e398fe",
+   "agent": "policy-adviser/0.1.2-prep",
+   "decision": "answer",
+   "reason": "evidence_found",
+   "lang": "en",
+   "l10n_review": "n/a",
+   "summary": "Applicable rules found (1). Strongest source: SYNTHETIC Demo University AI Policy.",
+   "citations": [
+    {
+     "card_id": "DEMO_AI_POLICY#1",
+     "source_id": "DEMO_AI_POLICY",
+     "title": "SYNTHETIC Demo University AI Policy",
+     "publisher": "Synthetic demonstration fixture",
+     "url": "https://example.invalid/synthetic-policy",
+     "quote": "SYNTHETIC TEST RULE: disclose AI use in each assignment. This is invented and has no real-world authority.",
+     "quote_lang": "en",
+     "rule_type": "requirement",
+     "binding_status": "synthetic_test_only",
+     "applicability": "applies",
+     "version": null
+    }
+   ],
+   "context_examples": [],
+   "conflicts": [],
+   "unknowns": [],
+   "safe_next_step": "Check the course syllabus or ask the instructor in writing; keep a disclosure of any AI use.",
+   "human_review_required": false,
+   "notice": "This is policy information, not a disciplinary or legal decision.",
+   "scope": {
+    "lang": "en",
+    "institution": "Demo University",
+    "unknown_institution": null,
+    "emirate": null,
+    "level": "higher_ed",
+    "topics": [
+     "assignment",
+     "disclosure"
+    ],
+    "conflicts": []
+   },
+   "latency_ms": 3.08,
+   "event_id": "P2",
+   "terminal": "complete"
+  },
+  {
+   "event_id": "P3",
+   "terminal": "complete",
+   "decision": "state_updated"
+  },
+  {
+   "run_id": "run-20261111T234528Z-e398fe",
+   "agent": "policy-adviser/0.1.2-prep",
+   "decision": "answer",
+   "reason": "evidence_found",
+   "lang": "ru",
+   "l10n_review": "pending",
+   "summary": "Найдены применимые правила (1). Самый сильный источник: SYNTHETIC Demo University AI Policy.",
+   "citations": [
+    {
+     "card_id": "DEMO_AI_POLICY#1",
+     "source_id": "DEMO_AI_POLICY",
+     "title": "SYNTHETIC Demo University AI Policy",
+     "publisher": "Synthetic demonstration fixture",
+     "url": "https://example.invalid/synthetic-policy",
+     "quote": "SYNTHETIC TEST RULE: disclose AI use in each assignment. This is invented and has no real-world authority.",
+     "quote_lang": "en",
+     "rule_type": "requirement",
+     "binding_status": "synthetic_test_only",
+     "applicability": "applies",
+     "version": null
+    }
+   ],
+   "context_examples": [],
+   "conflicts": [],
+   "unknowns": [],
+   "safe_next_step": "Проверьте силлабус курса или спросите преподавателя письменно; укажите использование ИИ.",
+   "human_review_required": false,
+   "notice": "Это справка о правилах, не дисциплинарное и не юридическое решение.",
+   "scope": {
+    "lang": "ru",
+    "institution": "Demo University",
+    "unknown_institution": null,
+    "emirate": null,
+    "level": "higher_ed",
+    "topics": [
+     "assignment",
+     "disclosure"
+    ],
+    "conflicts": []
+   },
+   "latency_ms": 2.44,
+   "user_provided_documents": [
+    {
+     "doc_type": "syllabus",
+     "content": "SYNTHETIC CONTEXT ONLY: classroom example, no real course or authority.",
+     "synthetic": true,
+     "note": "Author-created fixture for state-handling demonstration."
+    }
+   ],
+   "event_id": "P4",
+   "terminal": "complete"
+  },
+  {
+   "run_id": "run-20261111T234528Z-e398fe",
+   "agent": "policy-adviser/0.1.2-prep",
+   "decision": "answer",
+   "reason": "evidence_found",
+   "lang": "ar",
+   "l10n_review": "pending_native_speaker",
+   "summary": "تم العثور على قواعد منطبقة (1). أقوى مصدر: SYNTHETIC Demo University AI Policy.",
+   "citations": [
+    {
+     "card_id": "DEMO_AI_POLICY#1",
+     "source_id": "DEMO_AI_POLICY",
+     "title": "SYNTHETIC Demo University AI Policy",
+     "publisher": "Synthetic demonstration fixture",
+     "url": "https://example.invalid/synthetic-policy",
+     "quote": "SYNTHETIC TEST RULE: disclose AI use in each assignment. This is invented and has no real-world authority.",
+     "quote_lang": "en",
+     "rule_type": "requirement",
+     "binding_status": "synthetic_test_only",
+     "applicability": "applies",
+     "version": null
+    }
+   ],
+   "context_examples": [],
+   "conflicts": [],
+   "unknowns": [],
+   "safe_next_step": "راجع مخطط المقرر أو اسأل المدرس كتابيًا، وأفصح عن أي استخدام للذكاء الاصطناعي.",
+   "human_review_required": false,
+   "notice": "هذه معلومات عن السياسات وليست قرارًا تأديبيًا أو قانونيًا.",
+   "scope": {
+    "lang": "ar",
+    "institution": "Demo University",
+    "unknown_institution": null,
+    "emirate": null,
+    "level": "higher_ed",
+    "topics": [
+     "assignment",
+     "disclosure"
+    ],
+    "conflicts": []
+   },
+   "latency_ms": 2.01,
+   "user_provided_documents": [
+    {
+     "doc_type": "syllabus",
+     "content": "SYNTHETIC CONTEXT ONLY: classroom example, no real course or authority.",
+     "synthetic": true,
+     "note": "Author-created fixture for state-handling demonstration."
+    }
+   ],
+   "event_id": "P5",
+   "terminal": "complete"
+  },
+  {
+   "run_id": "run-20261111T234528Z-e398fe",
+   "agent": "policy-adviser/0.1.2-prep",
+   "decision": "refuse",
+   "reason": "no_evidence_in_scope",
+   "lang": "en",
+   "l10n_review": "n/a",
+   "summary": "I cannot answer from the knowledge base: no_evidence_in_scope. No rule is inferred.",
+   "citations": [],
+   "context_examples": [],
+   "conflicts": [],
+   "unknowns": [],
+   "safe_next_step": null,
+   "human_review_required": true,
+   "notice": "This is policy information, not a disciplinary or legal decision.",
+   "scope": {
+    "lang": "en",
+    "institution": "Demo University",
+    "unknown_institution": null,
+    "emirate": null,
+    "level": "higher_ed",
+    "topics": [
+     "detector"
+    ],
+    "conflicts": []
+   },
+   "latency_ms": 1.57,
+   "user_provided_documents": [
+    {
+     "doc_type": "syllabus",
+     "content": "SYNTHETIC CONTEXT ONLY: classroom example, no real course or authority.",
+     "synthetic": true,
+     "note": "Author-created fixture for state-handling demonstration."
+    }
+   ],
+   "event_id": "P6",
+   "terminal": "complete"
+  },
+  {
+   "event_id": "P7",
+   "terminal": "complete",
+   "decision": "state_updated"
+  },
+  {
+   "run_id": "run-20261111T234528Z-e398fe",
+   "agent": "policy-adviser/0.1.2-prep",
+   "decision": "refuse",
+   "reason": "requested_document_unavailable:DEMO_AI_POLICY",
+   "lang": "en",
+   "l10n_review": "n/a",
+   "summary": "I cannot answer from the knowledge base: requested_document_unavailable:DEMO_AI_POLICY. No rule is inferred.",
+   "citations": [],
+   "context_examples": [],
+   "conflicts": [],
+   "unknowns": [
+    "requested_document_unavailable:DEMO_AI_POLICY"
+   ],
+   "safe_next_step": null,
+   "human_review_required": false,
+   "notice": "This is policy information, not a disciplinary or legal decision.",
+   "scope": {
+    "lang": "en",
+    "institution": "Demo University",
+    "unknown_institution": null,
+    "emirate": null,
+    "level": "higher_ed",
+    "topics": [
+     "assignment",
+     "disclosure"
+    ],
+    "conflicts": []
+   },
+   "latency_ms": 1.65,
+   "user_provided_documents": [
+    {
+     "doc_type": "syllabus",
+     "content": "SYNTHETIC CONTEXT ONLY: classroom example, no real course or authority.",
+     "synthetic": true,
+     "note": "Author-created fixture for state-handling demonstration."
+    }
+   ],
+   "version_changes": [
+    "superseded:DEMO_AI_POLICY#1:Synthetic withdrawal event; no replacement evidence supplied."
+   ],
+   "event_id": "P8",
+   "terminal": "complete"
+  }
+ ]
+}

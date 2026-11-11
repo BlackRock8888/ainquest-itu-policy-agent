@@ -1,0 +1,99 @@
+[
+  {
+    "command": "python scripts/check_public_demo.py",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "PASS test_demo.py::test_missing_policy\nPASS test_demo.py::test_synthetic_disclosure\nPASS test_export.py::test_public_export_without_binding_evidence\n3 checks passed; synthetic smoke/regression only\n"
+  },
+  {
+    "command": "python -m policy_agent eval evals/synthetic-smoke.jsonl --out runs/synthetic-smoke.json",
+    "returncode": 0,
+    "stderr": "",
+    "items": 6,
+    "overall_pass": {
+      "n": 6,
+      "ok": 6,
+      "rate": 1.0
+    },
+    "decision_accuracy": {
+      "n": 6,
+      "ok": 6,
+      "rate": 1.0
+    },
+    "citation_ok": {
+      "n": 6,
+      "ok": 6,
+      "rate": 1.0
+    },
+    "cross_lingual_consistency": {
+      "groups": {
+        "synthetic-disclosure": true
+      },
+      "n": 1,
+      "ok": 1,
+      "rate": 1.0
+    },
+    "failures": []
+  },
+  {
+    "command": "python -m policy_agent replay evals/scenarios/synthetic-progressive.json --out runs/synthetic-replay.json",
+    "returncode": 0,
+    "stderr": "",
+    "events": 8,
+    "checks": [
+      {
+        "event_id": "P1",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P2",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P3",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P4",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P5",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P6",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P7",
+        "pass": true,
+        "fails": []
+      },
+      {
+        "event_id": "P8",
+        "pass": true,
+        "fails": []
+      }
+    ]
+  },
+  {
+    "command": "python -m policy_agent standards",
+    "returncode": 0,
+    "stderr": "",
+    "nodes": 9,
+    "dimensions": 6
+  },
+  {
+    "command": "python -m policy_agent export-upstream runs/synthetic-export",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n \"dir\": \"runs/synthetic-export/InputDocs/AI_Strategies/UAE_AI_Education\",\n \"files\": 1,\n \"corpus_sha256\": \"3e8ae880d5e79285be5890c0fc3e15e94e7cb70f2d92196eee27606994e63081\"\n}\n"
+  }
+]

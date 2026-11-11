@@ -1,0 +1,279 @@
+{
+  "package": "AINQUEST ITU supplementary material",
+  "report_date": "2026-11-12",
+  "created_utc": "2026-11-11T23:57:24.157461+00:00",
+  "repository": "https://github.com/BlackRock8888/ainquest-itu-policy-agent",
+  "source_code_revision": "5773339f6d905d3c86d57f7238cf8eb47e4c420c",
+  "original_public_revision": "476531ace392fb7867e6d1231461ce11fbe43f1f",
+  "report_pages": 5,
+  "scope": {
+    "default_kb": "One invented synthetic Demo University rule; not UAE policy.",
+    "separate_unesco_subset": "One UNESCO source, three global_nonbinding guidance cards; explicit custom-path loading.",
+    "research_source_index": "16 metadata entries; not loaded as runtime answer evidence.",
+    "historical_research": "49-card corpus, original research fixtures/run outputs and unpublished local privacy fix are not included.",
+    "validation": "Author-selected execution checks, not held-out tests, independent validation or an accuracy estimate.",
+    "submission": "Supplement to material acknowledged on 11 November; acceptance of the late entry is not confirmed."
+  },
+  "datasets": [
+    {
+      "path": "kb/cards.jsonl",
+      "cards": 1,
+      "sha256": "3e8ae880d5e79285be5890c0fc3e15e94e7cb70f2d92196eee27606994e63081"
+    },
+    {
+      "path": "kb_candidates/unesco/kb/cards.jsonl",
+      "cards": 3,
+      "sha256": "522884b96240e02d3a062ab631c73be845d0bf0bbe1fe61aa6765f920d598105",
+      "notices": "kb_candidates/unesco/THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "validation_records": [
+    "reports/validation/command-receipts.json",
+    "reports/validation/synthetic-replay.json",
+    "reports/validation/synthetic-smoke.json",
+    "reports/validation/unesco-context-check.json"
+  ],
+  "hash_scope": "All delivered repository files except this manifest itself; no caches or arbitrary local runs directory.",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 130,
+      "sha256": "e0d2751a788313eac0d69695c8a39d22525e342e774ca81036b2ec7e202c3d3e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 52,
+      "sha256": "ac55bb6fd0e54ec426b804abda1bd6a62940c343d80aa5cb682ec21aad204bb6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6537,
+      "sha256": "484df9697c1e68f19331c3419a43bac3153b4195b61819196a54b8f4ed28d933"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1717,
+      "sha256": "3af9be80c75e429922f4f798a065aae52dfb3ebad821eed44e36e82d2b0a6c25"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 6025,
+      "sha256": "6d3fd9e2f0de85f9d6e9502c3ae6e2770acbd2d236047281edc8c6e99ce4a9fa"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 3830,
+      "sha256": "023a266e3a9918cb8abb695fc27053111ac34166580a10a08a64eb0f7aeb0d46"
+    },
+    {
+      "path": "docs/standards-mapping.md",
+      "bytes": 4294,
+      "sha256": "783d5e8544391b934caeebaab98f8c9b92b9d464deca5056338092f55faa75ee"
+    },
+    {
+      "path": "evals/scenarios/synthetic-progressive.json",
+      "bytes": 3165,
+      "sha256": "df210c8d3b842695ef1ccaf21189578236a79ecde6fd22daac8469193eecee35"
+    },
+    {
+      "path": "evals/synthetic-smoke.jsonl",
+      "bytes": 1302,
+      "sha256": "901a686e781123db8b6cfd584904146475204a442b7d9bf5f19a2ee58130d002"
+    },
+    {
+      "path": "kb/CORPUS_SHA256",
+      "bytes": 65,
+      "sha256": "ea49c274d7c025488ba63ad489b2b76fa5cec8a577f92681a192779ed5bcaf5c"
+    },
+    {
+      "path": "kb/cards.jsonl",
+      "bytes": 561,
+      "sha256": "3e8ae880d5e79285be5890c0fc3e15e94e7cb70f2d92196eee27606994e63081"
+    },
+    {
+      "path": "kb/glossary.json",
+      "bytes": 9738,
+      "sha256": "4b838653ce2750e35bd70a0977a1a957527e7c2320652d343b354801be660eac"
+    },
+    {
+      "path": "kb/research-source-index.jsonl",
+      "bytes": 6875,
+      "sha256": "d5d3b8034cd53ce341b54e847ef9db2b5a33a7575d7fd25ee1ab59ff673593ad"
+    },
+    {
+      "path": "kb/sources.jsonl",
+      "bytes": 371,
+      "sha256": "a9e9d26fe7941ad54b6f575282dbe87801e11ad84c9cd84ee4dfe807cd3c7ba6"
+    },
+    {
+      "path": "kb_candidates/unesco/INTEGRATION.md",
+      "bytes": 1887,
+      "sha256": "48e686769e3327a6cd31430f255e83a34128b81647b8e12ba43d0a8f7b5f7223"
+    },
+    {
+      "path": "kb_candidates/unesco/MANIFEST_SHA256.json",
+      "bytes": 629,
+      "sha256": "137e45377e8bea6b0f05666f2e45671eb925a9f4eee797e7d99c2421474d2995"
+    },
+    {
+      "path": "kb_candidates/unesco/README.md",
+      "bytes": 3051,
+      "sha256": "65282e0b9c7ff03602b7f7bf4ba7a5227ee1b674412228e21435dd2efec18d14"
+    },
+    {
+      "path": "kb_candidates/unesco/THIRD_PARTY_NOTICES.md",
+      "bytes": 3523,
+      "sha256": "03656733e23f1cbf469003b9d982cbc869723ec32f393b25c4d90198128988bd"
+    },
+    {
+      "path": "kb_candidates/unesco/VALIDATION.json",
+      "bytes": 5078,
+      "sha256": "c032b6564fa56845a38f33965e19151e13df27505f7051c14370b411522622e1"
+    },
+    {
+      "path": "kb_candidates/unesco/kb/CORPUS_SHA256",
+      "bytes": 65,
+      "sha256": "401623189e0c20eadb3818d294daba4cf3efb62dfbde69d44383ce762b127f69"
+    },
+    {
+      "path": "kb_candidates/unesco/kb/cards.jsonl",
+      "bytes": 3988,
+      "sha256": "522884b96240e02d3a062ab631c73be845d0bf0bbe1fe61aa6765f920d598105"
+    },
+    {
+      "path": "kb_candidates/unesco/kb/glossary.json",
+      "bytes": 9650,
+      "sha256": "be5ccbaaf7bca718443dc2bbbb08bc0e2465ea591cd11d262a60f15b2d5d9641"
+    },
+    {
+      "path": "kb_candidates/unesco/kb/sources.jsonl",
+      "bytes": 1314,
+      "sha256": "bbfb6c8ac44d131b96e5aec9b3498169e83c3a2a8d094b728227841f0c0e38cb"
+    },
+    {
+      "path": "reports/ITU_Technical_Report_AINQUEST_2026-11-12.docx",
+      "bytes": 16852,
+      "sha256": "0b2a19c9b873a9a9a5249b4767de0ecddd6ca33acf2fb38a412fef97a1173749"
+    },
+    {
+      "path": "reports/ITU_Technical_Report_AINQUEST_2026-11-12.pdf",
+      "bytes": 148050,
+      "sha256": "1467d6a95ffa02d0588c2e0edc944fba91b45f244a3df383e06581c2f5b3968f"
+    },
+    {
+      "path": "reports/validation/command-receipts.json",
+      "bytes": 2258,
+      "sha256": "4cd9ac8cef352d376bd403210e70c373ecd3f9b69e4ce5517cd0bdd9f882b221"
+    },
+    {
+      "path": "reports/validation/synthetic-replay.json",
+      "bytes": 8647,
+      "sha256": "43def3e198c46c21813e733db8b3f91abbc0d360eba7659871867d6261cce15c"
+    },
+    {
+      "path": "reports/validation/synthetic-smoke.json",
+      "bytes": 3094,
+      "sha256": "4a8b29cf8bec627e84abe59ca931f1ca1b5af125e136573b0127ffe366276cf0"
+    },
+    {
+      "path": "reports/validation/unesco-context-check.json",
+      "bytes": 16477,
+      "sha256": "abe14be97f7f7e353f945d68395c2b6b997df91ff897c141cc339dcfcc21cee8"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 10,
+      "sha256": "1ef75474622295e26ce5f0ea6963e662181a9949d1ae696d8334c9c355432fa1"
+    },
+    {
+      "path": "scripts/check_public_demo.py",
+      "bytes": 552,
+      "sha256": "138a50713ad0de0c4c8acd529e4aa381bc22c5a1c282d7974ecac3df9ef15935"
+    },
+    {
+      "path": "scripts/check_unesco_candidate.py",
+      "bytes": 2626,
+      "sha256": "7e5db3817d29cbe76e3ed4de4b7d904a869643c6d92b6b24d94c4be5cd353818"
+    },
+    {
+      "path": "src/policy_agent/__init__.py",
+      "bytes": 73,
+      "sha256": "ffb22f9ac6bf0e3e146d7edb28c9e6bf55daa7d056df8478857d96b6aae6f1b8"
+    },
+    {
+      "path": "src/policy_agent/__main__.py",
+      "bytes": 2784,
+      "sha256": "9279445e6c2ffbfb938368084ba14688c4c93a117b24e8c8c863052dbaf89d54"
+    },
+    {
+      "path": "src/policy_agent/agent.py",
+      "bytes": 10058,
+      "sha256": "24ca3b59238ca9d9e09ec6a660b21fc72a47feb04f9c11856940dbd645b1bdac"
+    },
+    {
+      "path": "src/policy_agent/audit.py",
+      "bytes": 1160,
+      "sha256": "ec4e890b16cd8a7ec74537e4e84d259997c33595bfcee43d61f234170ad3c5b6"
+    },
+    {
+      "path": "src/policy_agent/evaluate.py",
+      "bytes": 4121,
+      "sha256": "ad3299a67592c82f144a3413eea24acc9bea17ddb3bb0fd67a7ca3fea1e75c20"
+    },
+    {
+      "path": "src/policy_agent/evidence.py",
+      "bytes": 3556,
+      "sha256": "883c0eadff81831784da78af639fabb0c83af6467e715e68cbe0d952b9442eda"
+    },
+    {
+      "path": "src/policy_agent/kb.py",
+      "bytes": 1362,
+      "sha256": "28860312e288cea25079700bcda7404926ff21c3f78dd371a44ac0ea259c6224"
+    },
+    {
+      "path": "src/policy_agent/replay.py",
+      "bytes": 5959,
+      "sha256": "1872dfe74d0f8528735538c905a2ad2eb76f7af4f5055e042349941a5cffa1fd"
+    },
+    {
+      "path": "src/policy_agent/retrieve.py",
+      "bytes": 3867,
+      "sha256": "5e40fe4827ea3370da0f0a87cd3de848676ce9877b09434a059f13a7ba89176e"
+    },
+    {
+      "path": "src/policy_agent/scope.py",
+      "bytes": 4055,
+      "sha256": "c3ce69fce7cc5cbf478a4d549a7acdc913bd0a616f6641520ff0eb857daffe1d"
+    },
+    {
+      "path": "src/policy_agent/source_scope.py",
+      "bytes": 2718,
+      "sha256": "322635d20b3bd471d5ad4b3dcfae82118e1a28a232e307c0d5e827d74d8b31eb"
+    },
+    {
+      "path": "src/policy_agent/standards.py",
+      "bytes": 4593,
+      "sha256": "096e15ad39954eedd5f052d9eba2a5135ab284dd28a965c54d46b92faa6c0e02"
+    },
+    {
+      "path": "src/policy_agent/text.py",
+      "bytes": 2528,
+      "sha256": "f06c52680cb035f51f96c012df966bbc29d77a4f61d76a843daf9741dcb67290"
+    },
+    {
+      "path": "src/policy_agent/upstream_export.py",
+      "bytes": 2421,
+      "sha256": "c0439c496e1dc1c40008a9bd23538cbfe7eaee7e944478fb2966112c8e47c395"
+    },
+    {
+      "path": "tests/test_demo.py",
+      "bytes": 592,
+      "sha256": "1bb14f5eb33232c5a45679812a7ccebeba589083da21b68a6a4aaf679631a663"
+    },
+    {
+      "path": "tests/test_export.py",
+      "bytes": 1041,
+      "sha256": "e3b64e1668354de3a9951aa03ea1028ce403b4f2d48dc86e73779d387a312e86"
+    }
+  ]
+}

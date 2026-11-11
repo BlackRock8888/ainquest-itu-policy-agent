@@ -1,0 +1,222 @@
+{
+  "run_utc": "2026-11-11T23:47:59+00:00",
+  "kind": "Three author-defined context-only checks; not independent evaluation or UAE legal guidance",
+  "corpus_sha256": "522884b96240e02d3a062ab631c73be845d0bf0bbe1fe61aa6765f920d598105",
+  "checks_passed": 3,
+  "source_count": 1,
+  "card_count": 3,
+  "notices_path": "kb_candidates/unesco/THIRD_PARTY_NOTICES.md",
+  "notices": "# UNESCO excerpt attribution and notices\n\nFengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO).\n\nOriginal publication: https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf\nDOI: https://doi.org/10.54675/EWZM9535\nLicense: https://creativecommons.org/licenses/by-sa/3.0/igo/\nLegal code: https://creativecommons.org/licenses/by-sa/3.0/igo/legalcode.en\nUNESCO Open Access terms: https://www.unesco.org/en/open-access/cc-sa\n\nThe present work is not an official UNESCO publication and shall not be considered as such.\n\n## Changes and scope\n\nThis candidate selects three English text excerpts from printed pages 21 and 23 (PDF pages 24 and 26), normalizes layout whitespace, and adds provenance, page, scope and explanatory metadata. Card #1 expands the former standalone sentence to include its independent-conversation context. The quoted wording is not translated or paraphrased. Added context notes are project annotations, not UNESCO quotations or legal conclusions. The UNESCO-derived excerpt selection and annotations are prepared under CC BY-SA 3.0 IGO; this does not grant a license to unrelated project code or other source works. This local preparation does not publish or submit the candidate.\n\n## Exclusions and required cautions\n\nNo photographs, illustrations, charts, cover art, UNESCO logo or full PDF are included. Images marked with an asterisk in the publication do not fall under CC BY-SA and require prior permission from their copyright holders. UNESCO terms apply exclusively to the text; other material not clearly owned by UNESCO or in the public domain requires separate permission. Third-party works cited by UNESCO are not automatically relicensed. The three selected passages are authorial recommendations, not attributed third-party quotations.\n\nUse of the UNESCO logo on derivative works is not permitted. No UNESCO, ITU or author endorsement, sponsorship or affiliation is asserted. The public GitHub account is identifiable; removing model names does not make the owner anonymous.\n\nThe publication states: “The ideas and opinions expressed in this publication are those of the authors; they are not necessarily those of UNESCO and do not commit the Organization.” Its designations and presentation do not express a UNESCO opinion on the legal status or frontiers of countries, territories, cities, areas or authorities.\n\nThe license offers the work AS-IS, without warranties including accuracy, fitness, non-infringement or absence of errors, and limits the licensor’s liability as set out in sections 5 and 6. Retain the license URI, copyright and attribution, applicable disclaimers, and change notice with redistribution. Do not add restrictions or effective technological measures inconsistent with the license. Any later adaptation must use a permitted ShareAlike license. No translation is included. UNESCO terms also address responsibility for derivative works, indemnity and WIPO mediation; review the linked full terms before release. No legal review is represented as complete.\n\n## Other project notices\n\nThis candidate does not copy the policy-agent software or amend its license. Any future combined code release must retain its existing THIRD_PARTY_NOTICES.md and other applicable notices, including the reference implementation’s MIT notice. This text does not replace those notices.\n",
+  "results": [
+    {
+      "query": "What minimum age does UNESCO recommend for independent conversations with GenAI platforms?",
+      "result": {
+        "run_id": "run-20261111T234759Z-044dd1",
+        "agent": "policy-adviser/0.1.2-prep",
+        "decision": "context_only",
+        "reason": "only_nonbinding_or_foreign_context",
+        "lang": "en",
+        "l10n_review": "n/a",
+        "summary": "No binding rule for your case was found in the knowledge base; only non-binding or foreign context is available.",
+        "citations": [],
+        "context_examples": [
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#1",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "The emergence of various GenAI chatbots demand that countries carefully consider – and publicly deliberate – the appropriate age threshold for independent conversations with GenAI platforms. The minimum threshold should be 13 years of age.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 24,
+            "source_page_printed": 21,
+            "context_note": "Recommendation addressed to countries about the age threshold for independent conversations with GenAI platforms. It is not a UAE legal age limit or blanket authorization for all classroom uses. Local law, institutional rules, service terms and supervision must be checked separately."
+          },
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#3",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "Age appropriateness: Consider implementing minimum age restrictions for the independent use of GenAI in the institution.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 26,
+            "source_page_printed": 23,
+            "context_note": "Recommendation to educational authorities and institutions concerning independent use of GenAI within an institution. This sentence does not specify a numerical age threshold."
+          }
+        ],
+        "conflicts": [],
+        "unknowns": [
+          "education_level_not_stated"
+        ],
+        "safe_next_step": "Check the course syllabus or ask the instructor in writing; keep a disclosure of any AI use.",
+        "human_review_required": false,
+        "notice": "This is policy information, not a disciplinary or legal decision.",
+        "scope": {
+          "lang": "en",
+          "institution": null,
+          "unknown_institution": null,
+          "emirate": null,
+          "level": null,
+          "topics": [
+            "age_limit"
+          ],
+          "conflicts": []
+        },
+        "latency_ms": 4.48
+      }
+    },
+    {
+      "query": "Какой минимальный возраст рекомендует UNESCO для самостоятельного общения с генеративным ИИ?",
+      "result": {
+        "run_id": "run-20261111T234759Z-90fce7",
+        "agent": "policy-adviser/0.1.2-prep",
+        "decision": "context_only",
+        "reason": "only_nonbinding_or_foreign_context",
+        "lang": "ru",
+        "l10n_review": "pending",
+        "summary": "Обязательного правила для вашего случая в базе нет; есть только необязательный или зарубежный контекст.",
+        "citations": [],
+        "context_examples": [
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#1",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "The emergence of various GenAI chatbots demand that countries carefully consider – and publicly deliberate – the appropriate age threshold for independent conversations with GenAI platforms. The minimum threshold should be 13 years of age.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 24,
+            "source_page_printed": 21,
+            "context_note": "Recommendation addressed to countries about the age threshold for independent conversations with GenAI platforms. It is not a UAE legal age limit or blanket authorization for all classroom uses. Local law, institutional rules, service terms and supervision must be checked separately."
+          },
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#3",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "Age appropriateness: Consider implementing minimum age restrictions for the independent use of GenAI in the institution.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 26,
+            "source_page_printed": 23,
+            "context_note": "Recommendation to educational authorities and institutions concerning independent use of GenAI within an institution. This sentence does not specify a numerical age threshold."
+          }
+        ],
+        "conflicts": [],
+        "unknowns": [
+          "education_level_not_stated"
+        ],
+        "safe_next_step": "Проверьте силлабус курса или спросите преподавателя письменно; укажите использование ИИ.",
+        "human_review_required": false,
+        "notice": "Это справка о правилах, не дисциплинарное и не юридическое решение.",
+        "scope": {
+          "lang": "ru",
+          "institution": null,
+          "unknown_institution": null,
+          "emirate": null,
+          "level": null,
+          "topics": [
+            "age_limit"
+          ],
+          "conflicts": []
+        },
+        "latency_ms": 2.04
+      }
+    },
+    {
+      "query": "ما الحد الأدنى للعمر الذي توصي به اليونسكو للمحادثات المستقلة مع الذكاء الاصطناعي التوليدي؟",
+      "result": {
+        "run_id": "run-20261111T234759Z-033c0d",
+        "agent": "policy-adviser/0.1.2-prep",
+        "decision": "context_only",
+        "reason": "only_nonbinding_or_foreign_context",
+        "lang": "ar",
+        "l10n_review": "pending_native_speaker",
+        "summary": "لم يتم العثور على قاعدة ملزمة لحالتك في قاعدة المعرفة؛ يتوفر فقط سياق غير ملزم أو أجنبي.",
+        "citations": [],
+        "context_examples": [
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#1",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "The emergence of various GenAI chatbots demand that countries carefully consider – and publicly deliberate – the appropriate age threshold for independent conversations with GenAI platforms. The minimum threshold should be 13 years of age.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 24,
+            "source_page_printed": 21,
+            "context_note": "Recommendation addressed to countries about the age threshold for independent conversations with GenAI platforms. It is not a UAE legal age limit or blanket authorization for all classroom uses. Local law, institutional rules, service terms and supervision must be checked separately."
+          },
+          {
+            "card_id": "UNESCO_GENAI_GUIDANCE_2023#3",
+            "source_id": "UNESCO_GENAI_GUIDANCE_2023",
+            "title": "Guidance for generative AI in education and research",
+            "publisher": "UNESCO",
+            "url": "https://unesco.org.uk/site/assets/files/10375/guidance_for_generative_ai_in_education_and_research.pdf",
+            "quote": "Age appropriateness: Consider implementing minimum age restrictions for the independent use of GenAI in the institution.",
+            "quote_lang": "en",
+            "rule_type": "recommendation",
+            "binding_status": "global_nonbinding",
+            "applicability": "context_only",
+            "version": "2023",
+            "attribution": "Fengchun Miao and Wayne Holmes / Guidance for generative AI in education and research / ISBN 978-92-3-100612-8 / © UNESCO 2023 / licensed under CC BY-SA 3.0 IGO",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+            "source_page_pdf": 26,
+            "source_page_printed": 23,
+            "context_note": "Recommendation to educational authorities and institutions concerning independent use of GenAI within an institution. This sentence does not specify a numerical age threshold."
+          }
+        ],
+        "conflicts": [],
+        "unknowns": [
+          "education_level_not_stated"
+        ],
+        "safe_next_step": "راجع مخطط المقرر أو اسأل المدرس كتابيًا، وأفصح عن أي استخدام للذكاء الاصطناعي.",
+        "human_review_required": false,
+        "notice": "هذه معلومات عن السياسات وليست قرارًا تأديبيًا أو قانونيًا.",
+        "scope": {
+          "lang": "ar",
+          "institution": null,
+          "unknown_institution": null,
+          "emirate": null,
+          "level": null,
+          "topics": [
+            "age_limit"
+          ],
+          "conflicts": []
+        },
+        "latency_ms": 1.87
+      }
+    }
+  ]
+}
