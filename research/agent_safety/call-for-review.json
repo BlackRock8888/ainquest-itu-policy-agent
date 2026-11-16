@@ -1,6 +1,6 @@
 {
   "id": "ainquest.agent-safety.review",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "published_on": "2026-11-16",
   "status": "open_research_draft",
   "maintainer": "AINQUEST",
@@ -20,7 +20,10 @@
   "paths": {
     "paper": "research/agent_safety/README.md",
     "reference": "research/agent_safety/reference.py",
-    "tests": "research/agent_safety/test_reference.py"
+    "tests": "research/agent_safety/test_reference.py",
+    "source_snapshots": "research/agent_safety/source-snapshots.md",
+    "source_snapshot_reference": "research/agent_safety/source_snapshots.py",
+    "source_snapshot_tests": "research/agent_safety/test_source_snapshots.py"
   },
   "workstreams": [
     {
@@ -61,7 +64,12 @@
         "source revision",
         "question and observation",
         "outstanding uncertainty",
-        "reproducible next check"
+        "reproducible next check",
+        "source creation/publication as observed versus actual access timestamps",
+        "event or effective date distinct from source date",
+        "fact fingerprint ignores presentation-only changes",
+        "immutable prior decision and explicit reason for revision",
+        "one root per stable claim ID and revisions extend its current decision"
       ]
     },
     {

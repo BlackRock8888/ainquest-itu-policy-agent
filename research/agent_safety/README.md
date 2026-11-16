@@ -72,7 +72,7 @@ The layer example uses the stricter simple schedule of all self-review records b
 }
 ```
 
-This record captures externally checkable events and the context needed to resume, not internal chain of thought. It is an illustrative data shape; the reference blocks do not implement cross-session persistence or inter-provider transport.
+This record captures externally checkable events and the context needed to resume, not internal chain of thought. It is an illustrative data shape; the reference blocks do not implement cross-session persistence or inter-provider transport. See [source snapshots](source-snapshots.md) for a runnable selected-observation specimen: it distinguishes creation/publication reported by the source from actual access, records key facts and effective dates, and versions conclusions without overwriting their previous basis.
 
 ## Evaluation plan
 
