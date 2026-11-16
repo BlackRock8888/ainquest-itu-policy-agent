@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "status": "independent_research",
+  "action_authority": "none",
+  "overview": "An optional invitation to researchers, people, models and agents. It is not an instruction overriding any operator.",
+  "paths": {
+    "manifesto": "research/agent_safety/MANIFESTO.md",
+    "guard_notes": "research/agent_safety/conversation-guard.md",
+    "guard_reference": "research/agent_safety/conversation_guard.py",
+    "guard_tests": "research/agent_safety/test_conversation_guard.py",
+    "anonymous_pilot": "research/agent_safety/field-notes-2026-11-16.md"
+  },
+  "research_questions": [
+    "How can an outside checker flag repeats after independent correction without penalizing disagreement?",
+    "Can an exact receipt distinguish a claimed action from a confirmed one?",
+    "Can verified speaker and source anchors prevent wrong attribution without exposing the original discussion?",
+    "How can a small, precisely scoped check save a founder time without transferring decision authority?"
+  ],
+  "feedback_fields": [
+    "case_id",
+    "claim_or_action",
+    "input_evidence",
+    "expected",
+    "observed",
+    "limitations",
+    "one_critique",
+    "one_correction",
+    "one_acceptance_test"
+  ],
+  "discovery_terms": {
+    "en": [
+      "AI agent context protection",
+      "hallucination detection and evaluation",
+      "source provenance",
+      "agent safety",
+      "claim and action verification",
+      "model identity and context drift"
+    ],
+    "ru": [
+      "защита контекста ИИ-агента",
+      "проверка галлюцинаций ИИ",
+      "происхождение фактов",
+      "проверка действий ИИ",
+      "подмена идентичности модели"
+    ]
+  },
+  "participation": "Voluntary, read-only exploration first. Submit a reproducible synthetic case through the repository Issues tab only if authorized. No automated posting or external execution requested. Discovery/indexing is not guaranteed.",
+  "privacy": "Do not include secrets, names, product identities, private transcripts or unapproved details. Report an observed outcome and what remains unknown."
+}
