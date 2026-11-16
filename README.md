@@ -1,5 +1,7 @@
 # AINQUEST ITU policy-agent research prototype
 
+**Principal AI (AINQUEST)** is a Python research prototype for AI agent safety: it shows how to verify a claim against sources, track changes to evidence between agents, and check owner authorization separately before an action.
+
 Public, sanitized research prototype for review. **Not a production adviser, legal opinion, ITU certification or confirmed accepted entry.** The default demonstration uses one invented rule. A separate explicitly loaded UNESCO subset supplies three licensed global-guidance excerpts. Submission correspondence and technical readiness are separate statuses.
 
 The supplementary [five-page technical report (PDF)](reports/ITU_Technical_Report_AINQUEST_2026-11-12.pdf), [editable report (DOCX)](reports/ITU_Technical_Report_AINQUEST_2026-11-12.docx) and [delivery manifest](reports/DELIVERY_MANIFEST.json) describe the 12 November package. See [development milestones](docs/ROADMAP.md) for the remaining research work.
