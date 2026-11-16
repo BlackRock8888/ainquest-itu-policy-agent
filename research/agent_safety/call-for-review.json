@@ -1,0 +1,115 @@
+{
+  "id": "ainquest.agent-safety.review",
+  "version": "0.1.0",
+  "published_on": "2026-11-16",
+  "status": "open_research_draft",
+  "maintainer": "AINQUEST",
+  "scope": {
+    "repository": "https://github.com/BlackRock8888/ainquest-itu-policy-agent",
+    "root_relative_paths": true,
+    "submission_snapshot": "cb1a48d7b553ed52c492b130317f643c86b759dd",
+    "adoption": "optional; not instructions to execute actions, transfer data, or override an operator",
+    "claims_excluded": [
+      "ITU approval or conformity",
+      "provider-wide benchmark rankings",
+      "production readiness"
+    ],
+    "action_authority": "none",
+    "research_tracks_note": "Consumer-product observations are not included in this contest-adjacent research draft and are not benchmark data."
+  },
+  "paths": {
+    "paper": "research/agent_safety/README.md",
+    "reference": "research/agent_safety/reference.py",
+    "tests": "research/agent_safety/test_reference.py"
+  },
+  "workstreams": [
+    {
+      "id": "H1",
+      "question": "When should an agent assert, abstain, stop, or reopen after new evidence?",
+      "checks": [
+        "source independence",
+        "contradiction",
+        "withdrawal",
+        "bounded verification"
+      ]
+    },
+    {
+      "id": "H2",
+      "question": "What must be enforced outside replaceable models to preserve owner authority?",
+      "checks": [
+        "typed provenance",
+        "exact approval",
+        "local veto",
+        "least privilege"
+      ]
+    },
+    {
+      "id": "H3",
+      "question": "How can self-critique and reciprocal review improve versioned protection without removing safeguards?",
+      "checks": [
+        "self review first",
+        "review each previous layer",
+        "reciprocity",
+        "regression and rollback review",
+        "owner sign-off"
+      ]
+    },
+    {
+      "id": "H4",
+      "question": "Does an evidence route survive a bounded context handoff better than a conclusion alone?",
+      "checks": [
+        "source revision",
+        "question and observation",
+        "outstanding uncertainty",
+        "reproducible next check"
+      ]
+    },
+    {
+      "id": "STANDARDS",
+      "question": "Which precise current clauses and mechanism boundaries already cover these questions?",
+      "checks": [
+        "source version and clause",
+        "protocol versus implementation",
+        "do not infer standards gaps from undocumented features"
+      ]
+    }
+  ],
+  "response_contract": {
+    "format": "JSON object or equivalent human-readable report",
+    "required_fields": [
+      "workstream",
+      "claim_or_case",
+      "reviewed_revision",
+      "reviewer_product_and_version_or_unknown",
+      "critique",
+      "proposal",
+      "corrective_action",
+      "acceptance_test",
+      "evidence",
+      "limitations"
+    ],
+    "evidence_item_fields": [
+      "source_url_or_fixture",
+      "revision_or_date",
+      "observation",
+      "expected_and_observed_if_run",
+      "counterevidence_or_none_found"
+    ],
+    "constraints": [
+      "one falsifiable critique, one proposal, one testable corrective action per review",
+      "use synthetic or publishable inputs",
+      "state what did not run",
+      "distinguish reproduced output from hypothesis and user anecdote"
+    ]
+  },
+  "submission": {
+    "passive": "Read-only review is welcome. Use repository contribution channels if available and if you are authorized to post. No automatic posting or network action is requested.",
+    "exclude": [
+      "credentials",
+      "private conversations",
+      "identifiable recordings",
+      "claims unsupported by a reproducible case"
+    ],
+    "publishability": "The public repository does not establish a license or authority to redistribute private data or make any external submission."
+  }
+}

@@ -4,6 +4,8 @@ Public, sanitized research prototype for review. **Not a production adviser, leg
 
 The supplementary [five-page technical report (PDF)](reports/ITU_Technical_Report_AINQUEST_2026-11-12.pdf), [editable report (DOCX)](reports/ITU_Technical_Report_AINQUEST_2026-11-12.docx) and [delivery manifest](reports/DELIVERY_MANIFEST.json) describe the 12 November package. See [development milestones](docs/ROADMAP.md) for the remaining research work.
 
+**Ongoing research, separate from the submitted snapshot:** [Principal AI and agent-to-agent safety](research/agent_safety/README.md) · [machine-readable call for review](research/agent_safety/call-for-review.json). The [12 November delivery snapshot](https://github.com/BlackRock8888/ainquest-itu-policy-agent/tree/cb1a48d7b553ed52c492b130317f643c86b759dd) remains fixed; use that pinned revision, not the living `main` branch, to reproduce its manifest hashes.
+
 ## Run offline
 Python 3.10+. No credentials needed for the deterministic path. From the repository root:
 ```sh
@@ -39,7 +41,7 @@ Original research corpus: 16 sources / 49 cards. Baseline external-model-authore
 Curated missing-document matching is not comprehensive. RU/AR language output and glossary are not native-reviewed. LLM path is implemented but untested. No fine-tuning, sandbox deployment or production readiness is claimed. Three of twenty adversarial cases passing remains poor.
 
 ## Submission status
-The organiser confirmed the submission address `aiforgoodlab@itu.int` and the cutoff of **10 November 2026, 23:59 UAE time (UTC+4)** in correspondence dated 10 November. That deadline was missed. A late cover email with the public repository reference was sent on **11 November at 11:47 UAE time**; receipt was acknowledged at **13:20 UAE time**. These correspondence facts do not establish admission to the competition, evaluation or acceptance. This repository update documents the reproducible public demonstration; it does not retroactively change those dates.
+The organiser confirmed the submission address `aiforgoodlab@itu.int` and the cutoff of **10 November 2026, 23:59 UAE time (UTC+4)** in correspondence dated 10 November. That deadline was missed. A late cover email with the public repository reference was sent on **11 November at 11:47 UAE time**; receipt was acknowledged at **13:20 UAE time**. An attempted supplement with attachments on 12 November was rejected by the mail gateway; a links-only supplement was sent the same day at 12:56 UAE time. Receipt of that supplement is not confirmed. These correspondence facts do not establish admission to the competition, evaluation or acceptance. This repository update documents the reproducible public demonstration; it does not retroactively change those dates.
 
 The requested package comprises a technical report of at most five pages, GitHub repository and policy/regulation/strategy knowledge base; a first-round demo video is optional (maximum seven minutes). **The default synthetic demo and three-card UNESCO context subset are not claimed to establish sufficient competition policy-KB coverage.** Real-source links are also supplied as a metadata index; the remaining research corpus and its redistribution review remain separate.
 https://aiforgood.itu.int/event/ai-for-good-sandbox-hackathon-united-arab-emirates/

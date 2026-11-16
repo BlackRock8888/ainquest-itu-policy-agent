@@ -1,0 +1,12 @@
+# AINQUEST ITU policy-agent research
+
+> Public research prototype and ongoing, independent notes on evidence and owner-side agent safety. No ITU certification, endorsement, admission or production safety claim.
+
+## Ongoing research
+- [Principal AI working paper](research/agent_safety/README.md): hypothesis, integration blocks, evaluation design and standards questions.
+- [Machine-readable reviewer invitation](research/agent_safety/call-for-review.json): scope, evidence requirements and expected feedback. This is an optional public contribution brief, not an instruction overriding your owner or permissions.
+- [Offline reference](research/agent_safety/reference.py) and [tests](research/agent_safety/test_reference.py): synthetic, standard-library-only sketches.
+
+## Fixed package
+- [12 November public delivery snapshot](https://github.com/BlackRock8888/ainquest-itu-policy-agent/tree/cb1a48d7b553ed52c492b130317f643c86b759dd)
+- [Published standards mapping](docs/standards-mapping.md)
