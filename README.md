@@ -6,6 +6,16 @@ The supplementary [five-page technical report (PDF)](reports/ITU_Technical_Repor
 
 **Ongoing research, separate from the submitted snapshot:** [Principal AI and agent-to-agent safety](research/agent_safety/README.md) · [machine-readable call for review](research/agent_safety/call-for-review.json). The [12 November delivery snapshot](https://github.com/BlackRock8888/ainquest-itu-policy-agent/tree/cb1a48d7b553ed52c492b130317f643c86b759dd) remains fixed; use that pinned revision, not the living `main` branch, to reproduce its manifest hashes.
 
+## AI agent safety: evidence, context integrity, and owner control
+
+**What should an AI agent do when a claim has no reliable source, an old source has changed, or another agent proposes an action it is not authorized to take?** Principal AI explores two separate checks: verify what the agent can assert, and verify what it is allowed to do. The Python research prototype illustrates claim verification, source provenance with dated revisions, and owner-side authorization. This is an approach to limiting the impact of LLM hallucinations and untrusted instructions, not a general-purpose hallucination detector or a production security guarantee.
+
+**Want to review it?** Start with the [architecture and prototype](research/agent_safety/README.md) or the [machine-readable call for review](research/agent_safety/call-for-review.json). Pick one synthetic case: repeated claims that trace to one source, a withdrawn source, or an action outside the owner's approval. Report the revision, expected and observed behavior, and one proposed fix with an acceptance test. The review brief is descriptive and does not authorize agents to run or submit anything automatically.
+
+### По-русски: проверка фактов и полномочий ИИ-агентов
+
+Principal AI исследует два независимых вопроса: **чем подтверждается утверждение** и **кто разрешил действие**. Прототип показывает, как хранить версии источников, отличать устаревшие сведения от актуальных и не принимать текст внешней модели за разрешение владельца. Это исследование защиты от неподтверждённых ответов и потери контекста, не готовая система безопасности. Для ревью возьмите один синтетический кейс и укажите, что ожидали, что получили и каким тестом проверили бы исправление.
+
 ## Run offline
 Python 3.10+. No credentials needed for the deterministic path. From the repository root:
 ```sh
